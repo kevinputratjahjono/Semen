@@ -117,7 +117,7 @@ if menu == 'Penjualan Semen':
 
     # User inputs
     st.subheader('Form Penjualan Semen')
-    harga_per_sak = 100000  # Fixed price per sak
+    harga_per_sak = 65000  # Fixed price per sak
     jumlah_sak = st.number_input('Jumlah sak yang terjual', min_value=0, value=0, step=1, max_value=st.session_state.stok_semen)
     tanggal_penjualan = st.date_input('Tanggal penjualan', value=datetime.today())
     nama_pembeli = st.text_input('Nama pembeli')
